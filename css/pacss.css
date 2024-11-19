@@ -1,0 +1,148 @@
+/*#menu_text {
+	margin: 0;
+}	*/
+
+#menu_text {
+	background-color:  #522c5d;
+	text-align: center;
+	padding: 20px 60px 60px 60px;
+}
+
+.title-text{
+	float: left;
+}
+
+.title-logo{
+	float: right;
+	width: 75px;
+	margin-top: -18px;
+}
+
+nav {
+	background-color: #333;
+	overflow: hidden;
+}
+
+nav a {
+	color: white;
+	padding: 14px 20px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+}
+
+nav a:hover {
+	background-color: #DDD;
+	color: black;
+}
+
+
+#flex_container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+#left_side {
+	flex: 25%;
+	background-color: #f1f1f1;
+	padding: 10px 20px;
+}
+
+#right_side {
+	flex: 70%;
+	padding: 10px 20px;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+footer > a {
+	color: white;
+}
+
+table {
+	border-style: solid;
+}
+
+/* Styling the table */
+table {
+	border-collapse: collapse;
+    width: 100%;
+
+}
+
+table td, table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.PAmenu_items{
+	text-align: center;
+	flex: 33%;
+}
+
+.PAmenu_img{
+	max-width: 85%;
+}
+
+#PAMenu_container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.PAmenu_title{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 10px 10px 5px 5px;
+}
+
+.PAmenu_desc{
+	margin: 0px 10px 20px 10px;
+}
+
+@media(max-width: 800px){
+	#left_side{
+		flex: 100%;
+	}
+	#right_side{
+		flex: 100%;
+	}
+	#flex_container{
+		flex-wrap: wrap;
+	}
+	.PAmenu_items{
+		flex: 50%;
+	}
+}
+
+/*@media(max-width: 400px){
+	#left_side{
+		flex: 100%;
+	}
+	#right_side{
+		flex: 100%;
+	}
+	#flex_container{
+		flex-wrap: wrap;
+	}
+	#PAmenu_items{
+		width: 50%;
+	}
+}*/

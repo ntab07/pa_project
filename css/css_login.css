@@ -1,0 +1,21 @@
+.auth-buttons {
+	display: flex;
+	gap: 1em;
+}
+
+.login-button, .signup-button {
+	color: #fff;
+	background-color: #6a529a; /* Màu nền tím cho các nút */
+	padding: 0.5em 1em;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.signup-button {
+	background-color: #2c105f; /* Tím đậm hơn cho nút Đăng ký */
+}
+
+.login-button:hover, .signup-button:hover {
+	background-color: #4f3376; /* Tím nhạt hơn khi rê chuột */
+}
